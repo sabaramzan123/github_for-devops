@@ -1,0 +1,25 @@
+15 git status
+  16 git status
+  17 git add .\testing.py
+  18 clear
+  19 git status
+  20 git rm --cached .\testing.py
+  21 git status
+  22 git add .\testing.py
+  23 clear
+  24 git status
+  25 git commit -m "added testing file"
+  26 git config --global user.email "sabaramzan0226@gmail.com"
+  27 git config --global user.name "sabaramzan123"
+  28 git commit -m "added testing file"
+  29 git status
+  30 clear
+  31 rm .\testing.py
+  32 ls
+  33 rm .\testing.py
+  34 clear
+  35 ls
+  36 git status
+  37 clear
+  38 git restore testing.py
+  39 git status
